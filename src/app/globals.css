@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 :root {
   --background: #ffffff;
@@ -20,7 +21,7 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #191D32;
+  color: #fff; /* optional text color */
+  font-family: 'Russo One', monospace;
 }
