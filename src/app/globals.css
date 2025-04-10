@@ -25,3 +25,21 @@ body {
   color: #fff;
   font-family: 'Russo One', monospace;
 }
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    opacity: 1;
+    text-shadow:
+      0 0 2px #A0EFFF,
+      0 0 4px #A0EFFF,
+      0 0 8px #A0EFFF,
+      0 0 16px #A0EFFF;
+  }
+  20%, 24%, 55% {
+    opacity: 0.7;
+    text-shadow: none;
+  }
+}
+.flicker {
+  animation: flicker 3s infinite;
+}

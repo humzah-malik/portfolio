@@ -74,6 +74,11 @@ export default function Projects() {
           </div>
         ))}
       </div>
+
+      <h2 className="text-center text-[#A0EFFF] mt-6 text-lg md:text-xl font-semibold flicker">
+        More projects launching soon. Stay tuned!
+      </h2>
+
     </section>
   )
 }
