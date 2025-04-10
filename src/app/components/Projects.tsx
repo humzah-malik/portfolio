@@ -23,7 +23,7 @@ const projects = [
     description: 'Retro-style Checkers game built with C++ and Qt, featuring two-player and AI modes, custom undo logic, and sound effects.',
     tech: 'C++',
     image: '/checkers2.png',
-    github: 'https://github.com/humzah-malik/portfolio'
+    github: 'https://github.com/humzah-malik/Checkers'
   },
   {
     title: 'AtlasVenture',
@@ -32,7 +32,6 @@ const projects = [
     image: '/atlasVenture.png',
     github: 'https://github.com/humzah-malik/atlasventure'
   },
-  // more...
 ]
 
 export default function Projects() {
