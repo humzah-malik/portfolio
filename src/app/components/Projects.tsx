@@ -14,6 +14,7 @@ const projects = [
     title: 'Portfolio Site',
     description: 'Personal developer portfolio with animations',
     tech: 'Next.js, TypeScript, Tailwind CSS, Framer Motion, React Icons',
+    image: '/portfolio.png',
     live: 'https://humzahmalik-portfolio.vercel.app/',
     github: 'https://github.com/humzah-malik/portfolio'
   },
