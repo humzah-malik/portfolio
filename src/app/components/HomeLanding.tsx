@@ -28,8 +28,7 @@ export default function HomeLanding({ onStart }: HomeLandingProps) {
           'Weight Lifter.',
           'Soccer Fanatic.',
           'Sightseer.',
-          'Avid Reader.',
-          'TV fan.'
+          'Avid Reader.'
         ]}          
           loop={0}
           cursor
