@@ -40,7 +40,7 @@ export default function About() {
         {/* Right Box - About Me Text */}
         <div className="bg-[#12192C] p-6 rounded-2xl border border-[#A0EFFF] w-full md:w-1/2 shadow-lg">
           <h2 className="text-l mb-4 font-bold">
-          I’ve always been drawn to creativity and design, but my passion for technology began when I realized how code could transform ideas into interactive experiences. 
+          I’ve always been drawn to creativity and design, but my passion for tech began when I realized how code could transform ideas into interactive experiences. 
           Creating a mini text-based adventure game in high school sparked my interest in computer science and opened the door to building projects that blend logic with creativity. 
           Now, as a third-year Computer Science student at Western University, I focus on developing design-driven applications with clean interfaces and intuitive user experiences. 
           I’m currently seeking opportunities for Summer 2025 where I can learn, contribute, and help build meaningful products.
