@@ -3,6 +3,13 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
+    title: 'VoxWave',
+    description: 'Productivity web app with a custom study timer to track tasks and manage time efficiently.',
+    tech: 'HTML, CSS, JS, Node.js, MongoDB, Todoist API',
+    image: '/voxWave',
+    github: 'https://github.com/humzah-malik/VoxWave'
+  },
+  {
     title: 'Focus Flow',
     description: 'Productivity web app with a custom study timer to track tasks and manage time efficiently.',
     tech: 'HTML, CSS, JS, Node.js, MongoDB, Todoist API',
