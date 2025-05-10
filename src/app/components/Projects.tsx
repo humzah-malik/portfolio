@@ -4,9 +4,9 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 const projects = [
   {
     title: 'VoxWave',
-    description: 'Productivity web app with a custom study timer to track tasks and manage time efficiently.',
-    tech: 'HTML, CSS, JS, Node.js, MongoDB, Todoist API',
-    image: '/voxWave',
+    description: 'MacOS menubar app that uses hand gestures and voice commands to control system functions and Spotify playback.',
+    tech: 'Python, MediaPipe, PyAutoGUI, SpeechRecognition, Spotipy, rumps, AppleScript',
+    image: '/voxWave.png',
     github: 'https://github.com/humzah-malik/VoxWave'
   },
   {
