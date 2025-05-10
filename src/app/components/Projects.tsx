@@ -48,7 +48,15 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, idx) => (
           <div key={idx} className="relative bg-[#12192C] border border-[#A0EFFF] rounded-xl overflow-hidden group shadow-md">
-            <img src={project.image} alt={project.title} className="w-full h-64 object-cover object-top" />
+            <img
+              src={project.image}
+              alt={project.title}
+              className={
+                project.title === 'VoxWave'
+                  ? "w-full h-64 object-contain mx-auto"
+                  : "w-full h-64 object-cover object-top"
+              }
+            />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{project.title}</h3>
               <p className="text-sm mt-1">{project.description}</p>
