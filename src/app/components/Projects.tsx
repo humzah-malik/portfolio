@@ -6,7 +6,7 @@ const projects = [
     title: 'VoxWave',
     description: 'MacOS menubar app that uses hand gestures and voice commands to control system functions and Spotify playback.',
     tech: 'Python, MediaPipe, PyAutoGUI, SpeechRecognition, Spotipy, rumps, AppleScript',
-    image: '/voxWave(2).png',
+    image: '/VoxWave(2).png',
     github: 'https://github.com/humzah-malik/VoxWave'
   },
   {
