@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Home from './components/Home'
 import HomeLanding from './components/HomeLanding'
 import { motion } from 'framer-motion'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function Page() {
   const [hasStarted, setHasStarted] = useState(false)
@@ -20,6 +21,7 @@ export default function Page() {
 
   return (
     <main>
+      <Analytics />
       {!hasStarted ? (
         <HomeLanding onStart={handleStart} />
       ) : (
