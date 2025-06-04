@@ -3,6 +3,14 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
+    title: 'ConceptNet',
+    description: 'Web app that turns lecture transcripts into interactive concept maps with AI-generated summaries and quizzes.',
+    tech: 'React, Tailwind CSS, FastAPI, Supabase, OpenAI, Cohere, Vis.js',
+    image: '/conceptnet.png',
+    live: 'https://conceptnet.vercel.app/',
+    github: 'https://github.com/humzah-malik/ConceptNet'
+  },
+  {
     title: 'VoxWave',
     description: 'MacOS menubar app that uses hand gestures and voice commands to control system functions and Spotify playback.',
     tech: 'Python, MediaPipe, PyAutoGUI, SpeechRecognition, Spotipy, rumps, AppleScript',
