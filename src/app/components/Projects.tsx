@@ -3,6 +3,14 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
+    title: 'RecoverTrack',
+    description: 'Personalized recovery tracker that helps users log wellness data, view trends, and get ML-based recovery scores to guide smarter training.',
+    tech: 'React, Tailwind CSS, TypeScript, FastAPI, PyTorch, Supabase, Docker, GitHub Actions',
+    image: '/recovertrack.png',
+    live: 'https://recovertrack.vercel.app/', 
+    github: 'https://github.com/humzah-malik/RecoverTrack'
+  },  
+  {
     title: 'ConceptNet',
     description: 'Web app that turns lecture transcripts into interactive concept maps with AI-generated summaries and quizzes.',
     tech: 'React, Tailwind CSS, FastAPI, Supabase, OpenAI, Cohere, Vis.js',
